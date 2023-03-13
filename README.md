@@ -1,3 +1,4 @@
+## Script01_createLabs
 ### To install
 1. Copy or download the script and put it in the `/usr/local/bin/` folder without the `.py` extension.
 2. Give execute permissions to the file `sudo chmod +x nameScript`.
