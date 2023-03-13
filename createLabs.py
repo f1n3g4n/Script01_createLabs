@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#Script by F1neg4n
 
 import os
 
