@@ -44,7 +44,7 @@ def createEnvironment():
         createFolders()
     else:
         os.system('mkdir ' + path)
-        os.chdir('labs/')
+        os.system('cd labs/')
         createFolders()
     return
 
