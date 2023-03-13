@@ -30,7 +30,7 @@ def createFolders():
     if(os.path.exists(path + '/' + nameLab + '/') == False):
         os.system('mkdir ' + nameLab)
         os.chdir(nameLab + '/')
-        os.system('mkdir 1.-Reserch 2.-Scripts 3.-Evidence')
+        os.system('mkdir 1.-Content 2.-Exploits 3.-NMAP')
         print('[+] Done, Work environment succefully created!')
     else:
         print('[-] Sorry but "' + nameLab + '" already exists')
