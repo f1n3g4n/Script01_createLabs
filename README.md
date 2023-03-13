@@ -8,4 +8,4 @@ Coming soon!
 ### Required
 1. Python3 `sudo apt install python3`.
 
-#### Enjoy, F1neg4n!
+#### Enjoy it, F1neg4n!
