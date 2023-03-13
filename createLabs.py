@@ -7,9 +7,9 @@ import os
 path = '/home/' + os.getlogin() + '/labs'
 
 def welcome():
-    welc = 'Create Labs by F1neg4n'
+    welc = 'Create Labs'
     os.system('clear')
-    print(welc + '\n' + '-' * len(welc) + '\n')
+    print(welc + '\n' + '*' * len(welc) + '\n')
     return
 
 def newLabName():
