@@ -1,15 +1,16 @@
 #!/usr/bin/python3
-#Script by F1neg4n
+# Created by F1neg4n
 
 import os
-
 
 path = '/home/' + os.getlogin() + '/labs'
 
 def welcome():
-    welc = 'Create Labs'
+    welc = 'SSH Connect'
+    info = '[INFO] Python script to create SSH connections'
     os.system('clear')
-    print(welc + '\n' + '*' * len(welc) + '\n')
+    print(welc + '\n' + '*' * len(welc))
+    print(info + '\n' + '-' * len(info))
     return
 
 def newLabName():
